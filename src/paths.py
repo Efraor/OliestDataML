@@ -1,7 +1,8 @@
 #For 
 from pathlib import Path
 
-PROJECT_DIR = Path(__file__).resolve().parents[2]  # apunta a la raiz del proyecto
+PROJECT_DIR = Path(__file__).resolve().parents[1]
+
 DATA_DIR = PROJECT_DIR / "data"
 DATA_RAW = DATA_DIR / "raw"
 DATA_PROCESSED = DATA_DIR / "processed"
