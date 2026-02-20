@@ -120,12 +120,6 @@ Las transformaciones intermedias (limpieza, features y atributos clusterizados) 
 3. Ejecuta cada notebook caso por caso. Todos inicializan `set_seeds(SEED)` para resultados deterministas.
 4. Guarda los outputs relevantes en `models/`, `reports/` o `outputs/` según corresponda.
 
-## 7. Próximos pasos sugeridos
-
-1. Incorporar features geoespaciales (distancia cliente–seller) y métricas de courier en el modelo de ETA para superar MAE < 4 días.
-2. Entrenar un recomendador híbrido que combine co-ocurrencia de productos (ALS o modelos de secuencia) con los clusters actuales.
-3. Publicar un dashboard ligero (Streamlit) que conecte los tres casos y permita a Paulo decir “wow, estás contratado” con datos en vivo.
-
 ---
 
 ¿Tienes comentarios o un cuarto caso en mente (por ejemplo, precios dinámicos)? Abre un issue o extiende el repositorio siguiendo la misma convención de notebooks por caso.
